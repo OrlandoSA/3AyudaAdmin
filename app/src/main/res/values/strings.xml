@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">3AyudaAdmin</string>
+    <string name="app_name2">3Ayuda</string>
+    <string name="boton">Acceder</string>
+    <string name="text_perfil">Perfil</string>
+    <string name="mail">Correo</string>
+    <string name="pass">Contraseña</string>
+    <string name="conf">Confirmar</string>
+    <string name="age">Edad</string>
+    <string name="phone">Telefono</string>
+    <string name="perfil">PERFIL</string>
+    <string name="personal">Personal de Servicio</string>
+</resources>
