@@ -1,53 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="@color/azulclaro">
+    android:background="@color/azulclaro"
+    android:orientation="vertical">
 
     <ImageView
+        android:id="@+id/imagen_perfil"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:id="@+id/imagen_perfil"
-        android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        android:src="@drawable/ic_perfil"
+        android:layout_marginTop="10dp"
         android:background="@drawable/marco"
-        />
+        android:src="@drawable/ic_perfil" />
+
+    <TextView
+
+        android:id="@+id/tv_perfil_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="nombre nombre apellido apellido"
+        android:textColor="@color/negro"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_perfil_edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="plomero-pintor-batman"
+        android:textColor="@color/grisoscuro"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/tv_perfil_servicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="plomero-pintor-batman"
+        android:textColor="@color/grisoscuro"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/tv_perfil_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="correo@ejemplo.com"
+        android:textColor="@color/grisoscuro"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@color/azul" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/perfil_nombre"
-        android:text="nombre nombre apellido apellido"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:textColor="@color/negro"
-        android:textSize="18dp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/perfil_trabajos"
-        android:text="plomero-pintor-batman"
-        android:layout_gravity="center"
-        android:textColor="@color/grisoscuro"
-        android:textSize="16dp"/>
-    <View
-        android:layout_width="380dp"
-        android:layout_gravity="center"
-        android:layout_height="3dp"
-        android:layout_marginTop="15dp"
-        android:background="@color/azul"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Comentarios"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Comentarios"
         android:textColor="@color/negro"
-        android:textSize="16dp"/>
+        android:textSize="16dp" />
+
     <ListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
@@ -57,5 +76,11 @@
         android:layout_weight="1"
         android:divider="@null"
         android:dividerHeight="10dp" />
-    
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesion"/>
+
 </LinearLayout>
