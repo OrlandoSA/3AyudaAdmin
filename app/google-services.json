@@ -8,41 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:909632462452:android:5f18071324fac858137b21",
+        "mobilesdk_app_id": "1:909632462452:android:2a4f764284a5c371137b21",
         "android_client_info": {
           "package_name": "ayuda.a3ayuda"
         }
       },
       "oauth_client": [
         {
-          "client_id": "909632462452-ote3scsc2s3k1hlc38kobmkj06ut5h36.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAXxNh5zTaL4383OWixt6tDLyOpku6MKjU"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "909632462452-ote3scsc2s3k1hlc38kobmkj06ut5h36.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:909632462452:android:18115c2f6f042222137b21",
-        "android_client_info": {
-          "package_name": "beltran.miguel.firebaseprueba"
-        }
-      },
-      "oauth_client": [
+          "client_id": "909632462452-q5gbk3tr8k5kdkj7bm40o8q5lb5rmdfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ayuda.a3ayuda",
+            "certificate_hash": "a17587fb84228ca9a7bd7a3c91e20935049eb99e"
+          }
+        },
         {
           "client_id": "909632462452-ote3scsc2s3k1hlc38kobmkj06ut5h36.apps.googleusercontent.com",
           "client_type": 3
@@ -57,7 +36,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "909632462452-ote3scsc2s3k1hlc38kobmkj06ut5h36.apps.googleusercontent.com",
+              "client_id": "909632462452-mfvghr6o6hfo74jr32n473ne4mj95msb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
